@@ -1,25 +1,25 @@
-
+/* Osnovni stil za cijelu stranicu */
 body {
-    margin: 0; 
-    padding: 0; 
-    background-color: #111111; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center; 
-    height: 100vh; 
-    font-family: Helvetica, Verdana, sans-serif; 
+    margin: 0;                       /* Uklanjanje zadanih margina preglednika */
+    padding: 0;                      /* Uklanjanje zadanog unutarnjeg razmaka */
+    background-color: #111111;       /* Tamna pozadina stranice*/
+    display: flex;                   /* Korištenje flexboxa za centriranje sadržaja */
+    flex-direction: column;          /* Naslov i canvas su jedan ispod drugog */
+    align-items: center;             /* Horizontalno centriranje sadržaja */
+    justify-content: center;         /* Vertikalno centriranje sadržaja */
+    height: 100vh;                   /* Visina bodyja je jednaka visini prozora */
+    font-family: Helvetica, Verdana, sans-serif; /* Zadani font za tekst na stranici */
 }
 
-
+/* Stil za naslov iznad igre */
 h1 {
-    color: #cccccc; 
-    margin-bottom: 10px; 
+    color: #cccccc;      /* Svjetlo siva boja teksta naslova */
+    margin-bottom: 10px; /* Razmak između naslova i canvasa */
 }
 
-
+/* Stil za canvas u kojem je igra */
 #gameCanvas {
-    background-color: black; 
-    border: 5px solid white; 
-    box-sizing: border-box; 
+    background-color: black;        /* Crna pozadina canvasa */
+    border: 5px solid white;        /* Bijeli rub širine 5 piksela oko canvasa */
+    box-sizing: border-box;         /* Rub se računa unutar zadane širine i visine */
 }
