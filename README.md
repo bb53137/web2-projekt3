@@ -30,6 +30,3 @@ Ako su sve cigle uništene, prikazat će se "YOU WIN!" poruka.
 Trenutni rezultat prikazuje se gore lijevo, a best score iz local storeaga gore desno.
 Projekt se sastoji od 1 hmtl, 1 css i 1 js datoteke.
 
-Trenutni rezultat prikazuje se gore lijevo, a najbolji rezultat (iz localStorage-a) gore desno.
-
-Projekt se sastoji od jedne HTML, CSS i JavaScript datoteke.
